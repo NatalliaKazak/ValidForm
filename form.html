@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Form</title>
+        <link href="css.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		<form action='#' method='post' id='form1' name='fms'>
+    		<h2>Для внесения вашего сайта в каталог заполните форму:</h2>
+           	<label for='programmers-field'>Разработчики:</label>
+            	<input type='text' name='programmers' id='programmers-field'>
+            	<div class='clerfix error' id='error-field1'></div><br>
+            <label for='site-field'>Название сайта:</label>
+            	<input type='text' name='site' id='site-field'>
+            	<div class='clerfix error' id='error-field2'></div><br>
+            <label for='url-field'>URL сайта:</label>
+            	<input type='text' name='url' id='url-field' placeholder='http://'>
+            	<div class='clerfix error' id='error-field3'></div><br>
+            <label for='date-field'>Дата запуска сайта:</label>
+            	<input type='text' name='date' class='date' id='date-field' placeholder='dd/mm/yyyy'>
+            	<div class='clerfix error' id='error-field4'></div><br>
+            <label for='visitors-field'>Посетителей в сутки:</label>
+            	<input type='text' name='visitors' id='visitors-field'>
+            	<div class='clerfix error' id='error-field5'></div><br>
+            <label for='mail-field'>E-mail для связи:</label>
+            	<input type='text' name='mail' id='mail-field'>
+            	<div class='clerfix error' id='error-field6'></div><br>
+            <label for='catalog-field'>Рубрика каталога:</label>
+            	<select  name='catalog' id='catalog-fiel'>
+            	<option value='nothing'> </option>
+            	<option value='appliances'>Бытовая техника: </option>
+            	<option value='phones'>Мобильные телефоны: </option>
+            	</select>
+            	<div class='clerfix error' id='error-field7'></div><br>
+           	<label for='rekl-field'>Размещение:</label>
+           		<input type='radio' name='rekl' id='rekl-field' checked>бесплатное
+           		<input type='radio' name='rekl' id='rekl-field'> платное
+           		<input type='radio' name='rekl' id='rekl-field'>VIP 
+           		<br>
+           	<label for='feedback-field'>Разрешить отзывы: </label>
+            	<input type='checkbox' name='feedback' id='feedback-field' checked><br>
+            <label for='description-field'>Описание сайта:</label><br>
+                <textarea type='text' name='description' id='description-field'></textarea>
+                <div class='clerfix error' id='error-field9'></div><br>
+            <div class='buttons'>
+            	<input type='submit' value='Опубликовать' name='publish' id='btn'>
+            </div>
+        </form>
+        <script src="script.js"> </script>
+    </body>
+</html>

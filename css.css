@@ -1,0 +1,48 @@
+body {
+	width: 100%;
+}
+form {
+	width: 80%;	
+	margin: auto;
+	border: 2px solid grey;
+	background-color: lightblue;
+	padding: 20px;
+}
+label {
+	width: 150px;
+	display: inline-block;
+	padding: 2px 0px;
+}
+div {
+	min-height: 2px;
+	display: inline-block;
+	color: red;
+	font-size: 14px;
+}
+.clearfix {
+	content: "";
+	display: table; 
+	clear: both;
+}
+input[type="text"] {
+	width: 85%;
+}
+.buttons {
+  width: 100%;
+}
+
+#date-field,
+#visitors-field{
+   width: 90px;
+}
+textarea {
+	width: 95%;
+}
+#btn {
+  width: 30%;
+  margin-left: 35%;
+  height: 25px;
+  font-size: 16px;
+}
+
+
